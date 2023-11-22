@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-class Botones_View extends StatelessWidget {
-  const Botones_View({super.key});
+class BotonesView extends StatelessWidget {
+  const BotonesView({super.key});
 
   static const String name = 'botones_view';
 

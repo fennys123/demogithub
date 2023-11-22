@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Iconos_View extends StatelessWidget {
-  const Iconos_View({super.key});
+class IconosView extends StatelessWidget {
+  const IconosView({super.key});
   static const String name = 'Iconos_View';
   @override
   Widget build(BuildContext context) {

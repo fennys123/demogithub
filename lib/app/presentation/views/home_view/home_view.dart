@@ -22,13 +22,13 @@ class HomeView extends StatelessWidget {
           children: [
             ElevatedButton(
               onPressed: () {
-                context.goNamed(Botones_View.name);
+                context.goNamed(BotonesView.name);
               },
               child: const Text('Botones'),
             ),
             ElevatedButton(
               onPressed: () {
-                context.goNamed(Iconos_View.name);
+                context.goNamed(IconosView.name);
               },
               child: const Text('Iconos'),
             ),
