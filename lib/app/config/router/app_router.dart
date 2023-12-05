@@ -1,4 +1,5 @@
 import 'package:go_router/go_router.dart';
+import 'package:proyecto_base/app/presentation/views/register_view/register_view.dart';
 import '../../presentation/views/botones_view/Botones_View.dart';
 import '../../presentation/views/home_view/home_view.dart';
 import '../../presentation/views/iconos_view/Iconos_View.dart';
@@ -16,8 +17,13 @@ final appRouter = GoRouter(
     GoRoute(
       path: '/Login_view',
       name: LoginView.name,
-      builder: (context, state) => const LoginView(),
+      builder: (context, state) =>  LoginView(),
     ),
+    GoRoute(path: '/Register_view',
+        name: RegisterView.name,
+        builder: (context, state) => RegisterView()
+    ),
+
     GoRoute(
       path: '/Botones_view',
       name: BotonesView.name,
